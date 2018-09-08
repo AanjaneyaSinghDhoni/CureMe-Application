@@ -1,0 +1,231 @@
+
+/* form style */
+
+.w3ls-reg {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.w3ls-reg form {
+    max-width: 700px;
+    margin: 0 5vw;
+    background: #dfecfb;
+    padding: 3.5vw;
+    border: 1px solid #a7a5a5;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.mr_agilemain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.field-w3-agile-grid {
+    flex-basis: 24%;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.field-right {
+    flex-basis: 74%;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.left-wthree {
+    flex-basis: 36%;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #0d4a89;
+    float: left;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.7px;
+}
+
+.left-wthree label,
+.bot_label {
+    color: #777;
+    margin-bottom: 0;
+}
+
+.w3ls-reg input[type="text"],
+.w3ls-reg input[type="email"] {
+    width: 100%;
+    color: #000;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    /* line-height: 25px; */
+    padding: 8px 15px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #4e4e4e;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.49);
+    -webkit-appearance: none;
+    font-family: 'Hind', sans-serif;
+    background: none;
+}
+
+.field-check.field-right label {
+    float: none;
+    color: #000;
+}
+
+.w3ls-contact.mr_agilemain.w3l-sub {
+    margin-top: 10px;
+}
+
+.copy-wthree p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.copy-wthree p a {
+    color: #024787;
+}
+
+.w3ls-reg input[type="submit"] {
+    color: #dfecfb;
+    flex-basis: 100%;
+    width:100%;
+    -webkit-flex-basis: 100%;
+    padding: 0.5em 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #024787;
+    font-family: 'Hind', sans-serif;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.w3ls-reg input[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+}
+
+.w3ls-reg select[type="submit"] {
+    color: #dfecfb;
+    flex-basis: 100%;
+    width:100%;
+    -webkit-flex-basis: 100%;
+    padding: 0.5em 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #024787;
+    font-family: 'Hind', sans-serif;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.w3ls-reg select[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+label.bot_label {
+    margin-bottom: 10px;
+}
+
+/*--responsive--*/
+
+@media(max-width:1920px) {
+    h1 {
+        font-size: 3.5vw;
+    }
+}
+
+@media(max-width:1024px) {
+    h1 {
+        font-size: 4.5vw;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+
+@media(max-width:568px) {
+    .mr_agilemain {
+        display: block;
+    }
+    .field-w3-agile-grid label {
+        float: none;
+    }
+    .field-w3-agile-grid ,.field-right{
+        margin-bottom: 1em;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .w3ls-contact form {
+        padding: 7.5vw;
+    }
+    .copy-wthree p {
+        font-size: 14px;
+        padding: 0 1em 1em;
+    }
+}
+
+@media(max-width:440px) {
+    h1 {
+        font-size: 2.3em;
+    }
+    .parent {
+        display: block;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    .w3ls-contact form {
+        padding: 25px 8px;
+    }
+}
+
+/*--//responsive--*/
